@@ -1,0 +1,62 @@
+.workPage{
+    display: flex;
+    flex: 1;
+    height: auto;
+    background-color:rgb(240, 237, 237);
+    align-items: center;
+    justify-content: center;
+}
+.works{
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.example{
+    width: 33%;
+    margin: 5px;
+    height: 30%;
+    /* border: 1px solid black; */
+}
+
+.title{
+    display: flex;
+    background-color:rgb(230, 226, 226);
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+.title h1{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2em;
+    color: #95B5B2;
+}
+
+.desc{
+    background-color: white;
+    height: 70%;
+}
+
+.desc p{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .workPage {
+      height: 150vh;
+    }
+    .works{
+        width: 100%;
+        flex-wrap:wrap; 
+        height: auto;
+    }
+    .example{
+        width: 70%;
+    }
+}
