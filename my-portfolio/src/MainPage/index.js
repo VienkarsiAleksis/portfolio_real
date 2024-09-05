@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import './index.css';
 import Header from '../Components/Header/index.js';
 import me from '../Images/me.jpg';
+import school from '../Images/school.jpg';
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 import Footer from '../Components/Footer/index.js';
@@ -143,7 +144,7 @@ export const MainPage = () => {
                         <p>At the vocational school we are taught PHP, C++, MySQL, React and Laravel and it was difficult for me at the beginning, but with time I learned it all.</p>
                     </div>
                     <div className="picture1">
-                        <img src="https://scontent.frix3-1.fna.fbcdn.net/v/t39.30808-6/375179296_844593020518054_2310059935846251665_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gTN5d59pexEQ7kNvgEf_eIv&_nc_ht=scontent.frix3-1.fna&oh=00_AYABg1z13m-ozKLSk1xXjezVXZQ9Er1qrGi0FpnPMyXEtQ&oe=6670CDF0" alt="" />
+                        <img src={school} alt="" />
                     </div>
                 </div>
                 <div className="work" id="work">
